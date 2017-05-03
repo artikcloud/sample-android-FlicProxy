@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+
+dependencies {
+    compile 'cloud.artik:artikcloud-java:2.0.7'
+    compile project(':fliclib')
+}
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "cloud.artik.example.flicproxy"
+        minSdkVersion 21
+        targetSdkVersion 25
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+    }
+
+}

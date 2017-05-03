@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  Login activity -->
+    <string name="app_name">ACFlicBtn</string>
+    <string name="login_screen_name">ACFlicBtn</string>
+    <string name="promote_to_login">Please login to ARTIK Cloud</string>
+    <string name="login_str">login</string>
+    
+    <!-- proxy activity -->
+    <string name="play_with_messages">Proxy Flic to ARTIK Cloud</string>
+    <string name="welcome_txt">Welcome </string>
+    <string name="artikcloud_device_info_str">ARTIK Cloud Device info </string>
+    <string name="grab_flic_button">Grab Flic Button</string>
+    <string name="sent_msg_str">Message sent: </string>
+    <string name="response_str">Response: </string>
+    <string name="flic_button_str">Flic button info </string>
+    <string name="name_str">Name: </string>
+    <string name="id_str">ID: </string>
+    <string name="grabbed_a_button_str">Grabbed a Flic button</string>
+    <string name="failed_grab_str">Failed to grab a Flic button</string>
+    <string name="exception_str">Run into exception: </string>
+</resources>
