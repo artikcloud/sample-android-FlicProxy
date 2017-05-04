@@ -48,12 +48,12 @@ Now build the project, which will download the ARTIK Cloud SDK JAR from [Maven C
  3. The app automatically creates a device with type "Example Flic Button" in your ARTIK Cloud account. There are four sections on the screen as the following: <br />
    ![createdADevice](./img/2.png)
   
-  The top section shows ARTIK Cloud device info. The 2nd section will show the physical Flic button's info. Section 3 will show the message sent to ARTIK Clond. The bottom section will print out the response from ARTIK Csloud.
+  The top section shows ARTIK Cloud device info. The 2nd section will show the physical Flic button's info. Section 3 will show the message sent to ARTIK Clond. The bottom section will print out the response from ARTIK Cloud.
 
  4. Click "Grab Flic Button", which navigates to the Flic app as blow:<br />
    ![FlicGrabber](./img/3.png)
  
- 5. Click the button on the Flic Grabber app. This will brings the Flic button to the sample Android app so that the sample app can intercept the button event. Section 2 in the following screen is updated with the name and ID of the physical Flic button:<br />
+ 5. Click the button on the Flic Grabber app. This brings the Flic button to the sample Android app so that the sample app can intercept the button event. Section 2 in the following screen is updated with the name and ID of the physical Flic button:<br />
    ![FlicInfo](./img/4.png)
  
  6. Now you can play with the Flic button. Single click, double click or hold. The app sends a message to ARTIK Cloud for each Flic event. Section 3 prints out the sent message and Section 4 shows the message ID returned by ARTIK Cloud:<br />
