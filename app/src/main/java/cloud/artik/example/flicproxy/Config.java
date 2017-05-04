@@ -20,7 +20,7 @@ import io.flic.lib.FlicManager;
 
 class Config {
     // Copy them from the corresponding application in the ARTIK Cloud Developer Dashboard
-    static final String CLIENT_ID = "YOUR_ARTIKCLOUD_CLIENT ID"; //aka application id
+    static final String CLIENT_ID = "YOUR_CLIENT_ID_FROM_ARTIKCLOUD"; //aka application id
 
     static final String REDIRECT_URL = "cloud.artik.example.flicproxy://oauth2callback";
 

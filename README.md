@@ -1,6 +1,6 @@
 # Android App: the proxy of a Flic button
 
-Let's build an Android application sending [Flic button](https://flic.io/) events to ARTIK Cloud. From there, you can extend the Flic button to control a wide range of remote devices via ARTIK Cloud Rules.
+Let's build an Android application sending [Flic button](https://flic.io/) events to ARTIK Cloud. From there, you can extend the Flic button to control a wide range of remote devices via [ARTIK Cloud Rules](https://developer.artik.cloud/documentation/rules-engine.html).
 
 After completing this sample, you will learn how to:
 - add a device to ARTIK Cloud programmatically
@@ -34,7 +34,7 @@ Go to [Flic Developer site](https://partners.flic.io/partners/developers/credent
  1. Clone this sample repository.
  2. Under the root of the source, clone [Flic Android SDK repository](https://github.com/50ButtonsEach/fliclib-android). This will create directory "fliclib-android" under the root.
  2. In Android Studio, import the sample app Android project. 
-  3. Update Config.java file. In this file, replace the placeholders with your own client ID from ARTIK Cloud and the credentials from Flic. You should have obtained them in the previous setup steps.
+  3. Update Config.java file. Replace the placeholders (starting with "YOUR_*****") with your own client ID from ARTIK Cloud and your own credentials from Flic. You should have obtained them in the previous setup steps.
 
 Now build the project, which will download the ARTIK Cloud SDK JAR from [Maven Central Repository](http://search.maven.org/). Deploy the APK to an Android phone.
 
