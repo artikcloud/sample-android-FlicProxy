@@ -8,6 +8,7 @@ After completing this sample, you will learn how to:
 - [intercept Flic button events](https://partners.flic.io/partners/developers/android-tutorial)  
 
 ## Requirements
+- [A Flic button connected to the Flic app](https://flic.io/)
 - Android Studio
 - [ARTIK Cloud Java SDK](https://github.com/artikcloud/artikcloud-java)
 - [Flic For Android SDK](https://github.com/50ButtonsEach/fliclib-android)
