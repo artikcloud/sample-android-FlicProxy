@@ -1,11 +1,6 @@
 # Android App: the proxy of a Flic button
 
-Let's build an Android application sending [Flic button](https://flic.io/) events to ARTIK Cloud. From there, you can extend the Flic button to control a wide range of remote devices via [ARTIK Cloud Rules](https://developer.artik.cloud/documentation/rules-engine.html).
-
-After completing this sample, you will learn how to:
-- add a device to ARTIK Cloud programmatically
-- proxy the data from a physical device to ARTIK Cloud
-- [intercept Flic button events](https://partners.flic.io/partners/developers/android-tutorial)  
+Read the blog [Flic and ARTIK Cloud place IoT at your fingertips](https://www.artik.io/blog/2017/05/flic-button-artik-cloud/) to learn what this app does and how is it implemented.
 
 ## Requirements
 - [A Flic button connected to the Flic app](https://flic.io/)
@@ -38,30 +33,6 @@ Go to [Flic Developer site](https://partners.flic.io/partners/developers/credent
   3. Update Config.java file. Replace the placeholders (starting with "YOUR_*****") with your own client ID from ARTIK Cloud and your own credentials from Flic. You should have obtained them in the previous setup steps.
 
 Now build the project, which will download the ARTIK Cloud SDK JAR from [Maven Central Repository](http://search.maven.org/). Deploy the APK to an Android phone.
-
-## Demo
-
- 1. Launch the app on your Android phone. 
-
- 2. Login using your account. <br />
-   ![Login](./img/1.png)
-
- 3. The app automatically creates a device with type "Example Flic Button" in your ARTIK Cloud account. There are four sections on the screen as the following: <br />
-   ![createdADevice](./img/2.png)
-  
-  The top section shows ARTIK Cloud device info. The 2nd section will show the physical Flic button's info. Section 3 will show the message sent to ARTIK Clond. The bottom section will print out the response from ARTIK Cloud.
-
- 4. Click "Grab Flic Button", which navigates to the Flic app as blow:<br />
-   ![FlicGrabber](./img/3.png)
- 
- 5. Click the button on the Flic Grabber app. This brings the Flic button to the sample Android app so that the sample app can intercept the button event. Section 2 in the following screen is updated with the name and ID of the physical Flic button:<br />
-   ![FlicInfo](./img/4.png)
- 
- 6. Now you can play with the Flic button. Single click, double click or hold. The app sends a message to ARTIK Cloud for each Flic event. Section 3 prints out the sent message and Section 4 shows the message ID returned by ARTIK Cloud:<br />
-![ProxyFlicEvents](./img/5.png)
-
- 7. Login to My ARTIK Cloud and see charts of the Flic events as the following:<br />
-![Chart at My ARTIK Cloud](./img/6.png)
 
 ## More about ARTIK Cloud
 
